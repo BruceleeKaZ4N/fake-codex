@@ -1,0 +1,44 @@
+# ===== 密钥与凭据（绝对不要提交）=====
+secret.h
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-log.txt
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== Agent 工作区与运行时产物 =====
+workspace/
+memory.json
+*.log
+logs/
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== 本地配置（若未来拆分全局/项目配置时用）=====
+config.local.json
